@@ -1,0 +1,15 @@
+{
+    "name": "tomhv/hello",
+    "autoload": {
+        "psr-4": {
+            "Tomhv\\Hello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tom Haskins-Vaughan",
+            "email": "tomhv@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

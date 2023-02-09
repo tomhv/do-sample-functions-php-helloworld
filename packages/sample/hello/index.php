@@ -1,13 +1,14 @@
 <?php
- 
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Tomhv\Hello\Greeter;
+
 function main(array $args) : array
 {
     $name = $args["name"] ?? "Pablo";
 
-    $greeting = "Hello, {$name}!";
-    echo $greeting;
-
     return [
-        'body' => $greeting,
+        'body' => Greeter::greet($name),
     ];
 }
