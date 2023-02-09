@@ -6,6 +6,6 @@ final class Greeter
 {
     public static function greet(string $name): string
     {
-        return "Hello, {$name}!";
+        return "Hello, {$name}! [build.sh]";
     }
 }
